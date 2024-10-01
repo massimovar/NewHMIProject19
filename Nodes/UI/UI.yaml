@@ -230,4 +230,20 @@ Children:
       Type: DynamicLink
       DataType: NodePath
       Value: "/Objects/NewHMIProject19@BrowseName"
+  - Name: LED1
+    Type: Led
+    Children:
+    - Name: Active
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
 - File: Screens/Screens.yaml
