@@ -230,20 +230,11 @@ Children:
       Type: DynamicLink
       DataType: NodePath
       Value: "/Objects/NewHMIProject19@BrowseName"
-  - Name: LED1
-    Type: Led
+  - Name: EditableLabel1
+    Type: EditableLabel
     Children:
-    - Name: Active
+    - Name: Text
       Type: BaseDataVariableType
-      DataType: Boolean
-    - Name: Width
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 50.0
-    - Name: Height
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 50.0
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"EditableLabel1"}
 - File: Screens/Screens.yaml
